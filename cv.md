@@ -31,3 +31,8 @@ function updateScoreElement() {
 }
 ```
 -----
+### Education
+* **University:** Belarusian State University of Informatics and Radioelectronics
+-----
+### English
+Pre-Intermediate
