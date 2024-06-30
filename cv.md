@@ -2,6 +2,7 @@
 ### Junior Frontend Developer
 -----
 ### Contacts
+
 * **Location:** Minsk, Belarus
 * **Phone:** +375-(29)-747-97-06
 * **Email:** kserduk54@gmail.com
@@ -14,6 +15,7 @@ Im a third-year student at BSUIR majoring in information systems and technologie
 
 -----
 ### Skills
+
 * HTML
 * CSS
 * JavaScript
@@ -32,7 +34,9 @@ function updateScoreElement() {
 ```
 -----
 ### Education
+
 * **University:** Belarusian State University of Informatics and Radioelectronics
 -----
 ### English
+
 Pre-Intermediate
