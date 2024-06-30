@@ -1,11 +1,7 @@
 # Karina Serduk
------
 ## Junior Frontend Developer
-=====
------
 -----
 ## Contacts
------
 * **Location:** Minsk, Belarus
 
 * **Phone:** +375-(29)-747-97-06
