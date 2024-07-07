@@ -1,19 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Karina Serdyuk</h1>
-    <h3>Junior Frontend Developer</h3>
-    <h3>Contacts</h3>
-    <ul>
-        <li><b>Location:</b> Minsk, Belarus</li>
-        <li><b>Phone:</b> +375-(29)-747-97-06</li>
-        <li><b>Email:</b> kserduk54@gmail.com</li>
-        <li><b>GitHub:</b> Karina2409</li>
-    </ul>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about" class="anchor-link">About me</a>
+                </li>
+                <li>
+                    <a href="#skills" class="anchor-link">Skills</a>
+                </li>
+                <li>
+                    <a class="anchor-link">Code</a>
+                </li>
+                <li>
+                    <a class="anchor-link">Education</a>
+                </li>
+                <li>
+                    <a class="anchor-link">English</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="name-job">
+            <div>
+                <img src="/images/my-photo.JPG" alt="Мое фото" class="my-photo">
+            </div>
+            <div class="name">
+
+                <h1>Karina Serdyuk</h1>
+                <h2>Junior Frontend Developer</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="main-left">
+                <section class="contacts">
+                    <h2 class="title">Contacts</h2>
+                    <ul class="contact-list">
+                        <li class="contact-row">
+                            <img src="/images/location.png" class="contact-icon">
+                            <p>Minsk, Belarus</p>
+                        </li>
+                        <li class="contact-row">
+                            <img src="/images/phone.png" class="contact-icon">
+                            <p>+375-(29)-747-97-06</p>
+                        </li>
+                        <li class="contact-row">
+                            <img src="/images/email.png" class="contact-icon">
+                            <p>kserduk54@gmail.com</p>
+                        </li>
+                        <li class="contact-row">
+                            <img src="/images/github.png" class="contact-icon">
+                            <p>Karina2409</p>
+                        </li>
+                        <li class="contact-row">
+                            <img src="/images/linkedin.png" class="contact-icon">
+                            <p><a
+                                    href="https://www.linkedin.com/in/karina-serdyuk-4a7722255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Karina
+                                    Serdyuk</a></p>
+                        </li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="title">Skills</h2>
+                    <ul>
+                        <li class="skill-row">
+                            <img src="/images/html.png">
+                            <p>HTML</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/css.png">
+                            <p>CSS</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/js.png">
+                            <p>JavaScript</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/git.png">
+                            <p>Git/GitHub</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/java.png">
+                            <p>Java</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/springboot.png">
+                            <p>SpringBoot</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/figma.png">
+                            <p>Figma</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/c.png">
+                            <p>C++</p>
+                        </li>
+                        <li class="skill-row">
+                            <img src="/images/bootstrap.png">
+                            <p>Bootstrap</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main-right">
+                <section class="about-me">
+                    <h2 id="about" class="title">About Me</h2>
+                    <p>Im a third-year student at BSUIR majoring in information systems and technologies in business
+                        management. I
+                        always try to learn something new, expand my knowledge and skills.</p>
+                </section>
+                <section class="code">
+                    <h2 class="title">Code Example</h2>
+                    <code>
+                    document.querySelector(".js-products-grid").innerHTML = productsHTML; <br><br>
+
+                    function updateCartQuantity(){<br>
+                    &nbsp;&nbsp;let cartQuantity = 0;<br><br>
+
+                    &nbsp;&nbsp;cart.forEach((cartItem) => {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;cartQuantity += cartItem.quantity;<br>
+                        &nbsp;&nbsp;});<br><br>
+
+                        &nbsp;&nbsp;document.querySelector(".js-cart-quantity").innerHTML = cartQuantity;<br>
+                    }<br><br>
+
+                    document.querySelectorAll(".js-add-to-cart").forEach((button) => {<br>
+                        &nbsp;&nbsp;button.addEventListener("click", () => {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;const productId = button.dataset.productId;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;addToCart(productId);<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;updateCartQuantity();<br>
+                            &nbsp;&nbsp;});<br>
+                    });<br><br>
+                </code>
+                </section>
+                <section class="education">
+                    <h2 class="title">Education</h2>
+                    <div class="edu">
+                        <b>University:</b>
+                        <p>Belarusian State University of Informatics and Radioelectronics</p>
+                    </div>
+                    <div class="edu">
+                        <b>English:</b>
+                        <p>Pre-Intermediate</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="/images/rs.png">
+        </a>
+        <a href="https://github.com/Karina2409">
+            <img src="/images/github.png">
+            <p>Karina2409</p>
+        </a>
+        <p>Created in 2024</p>
+    </footer>
 </body>
+
 </html>
