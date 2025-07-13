@@ -6,7 +6,6 @@
 .education-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
 .education__item-container {
@@ -83,6 +82,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  .education-container {
+    gap: 30px;
+  }
+
   .education__item-container {
     border-left: none;
     padding: 0;
