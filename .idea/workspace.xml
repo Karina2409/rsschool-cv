@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa3ff08-1573-4824-8e9a-e06a30a27da8" name="Changes" comment="" />
+    <list default="true" id="6aa3ff08-1573-4824-8e9a-e06a30a27da8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;rsschool-cv-html&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/CV/assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/angular_projects/smart_home&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -93,6 +96,13 @@
       <workItem from="1752220025873" duration="17448000" />
       <workItem from="1752315442067" duration="2283000" />
       <workItem from="1752325625269" duration="385000" />
+      <workItem from="1752406200794" duration="852000" />
+      <workItem from="1752415416898" duration="332000" />
+      <workItem from="1752415765701" duration="9000" />
+      <workItem from="1752578202543" duration="603000" />
+      <workItem from="1752684165418" duration="610000" />
+      <workItem from="1752756982469" duration="338000" />
+      <workItem from="1752772690945" duration="23000" />
     </task>
     <servers />
   </component>
